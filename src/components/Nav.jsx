@@ -4,14 +4,14 @@ import LogoImg from '../assets/images/svg/atlantic-logo.svg'
 
 function Nav() {
     return (
-        <div className='hero_bg_img min-vh-100 d-flex flex-column bg_no_repeat bg_cover bg_pos_center'>
+        <div className='hero_bg_img min_vh_100 h_773 d-flex flex-column bg_no_repeat bg_cover bg_pos_center'>
             <nav className='nav_bg_colr'>
                 <div className='custom_container max_w_1380'>
                     <div className='d-flex align-items-center justify-content-between h_90'>
                         <div className='d-xxl-flex d-none align-items-center justify-content-between gap_55'>
-                            <div><a href=""><img src={LogoImg} alt="LogoImg" /></a></div>
+                            <div><a href=""><img src={LogoImg} alt="LogoImg"/></a></div>
                             <ul className='d-flex align-items-center gap_28 mb-0 ps-0 menuList'>
-                                <li><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>About Us</a></li>
+                                <li><a href="#about" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>About Us</a></li>
                                 <li class="dropdown cursor_pointer">
                                     <li onclick="openNav()" class="d-flex align-items-center nav_link">
                                         <li className='mb-0'><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>Categories</a></li>
@@ -29,15 +29,15 @@ function Nav() {
                                         <a href="#" class="ff_helevetica fw-normal text-15 lh-24">Link 2</a>
                                     </li>
                                 </li>
-                                <li><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>Services</a></li>
-                                <li><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'> Testimonials</a></li>
-                                <li><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>Blogs</a></li>
+                                <li><a href="#services" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>Services</a></li>
+                                <li><a href="#testimonials" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'> Testimonials</a></li>
+                                <li><a href="#blogs" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>Blogs</a></li>
                             </ul>
                         </div>
                         <div className='d-xxl-none d-block'><a href=""><img src={LogoImg} alt="LogoImg" /></a></div>
                         <input type='checkbox' id='menuIcon' hidden />
                         <ul className='d-flex align-items-center gap_28 mb-0 ps-0 menuList d-xxl-none'>
-                            <li><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>About Us</a></li>
+                            <li><a href="#about" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>About Us</a></li>
                             <li class="dropdown cursor_pointer">
                                 <li onclick="openNav()" class="d-flex align-items-center">
                                     <li className='mb-0'><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>Categories</a></li>
@@ -55,9 +55,9 @@ function Nav() {
                                     <a href="#" class="ff_helevetica fw-normal text-15 lh-24">Link 2</a>
                                 </li>
                             </li>
-                            <li><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>Services</a></li>
-                            <li><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'> Testimonials</a></li>
-                            <li><a href="" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>Blogs</a></li>
+                            <li><a href="#services" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>Services</a></li>
+                            <li><a href="#testimonials" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'> Testimonials</a></li>
+                            <li><a href="#blogs" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>Blogs</a></li>
                             <button className='ff_chivo fw-900 text_16xs lh_24 color_white text-uppercase comn_btn text-nowrap'>Get in touch</button>
                         </ul>
                         <label for='menuIcon' className='d-xxl-none d-flex'>
@@ -79,7 +79,7 @@ function Nav() {
             </nav>
             <div className='flex-grow-1 d-flex align-items-end'>
                 <div className='max_w_1140 w-100 custom_container'>
-                    <div className='d-flex flex_wrap align-items-center justify-content-between'>
+                    <div className='d-flex flex_wrap gap-sm-0 gap-2 align-items-center justify-content-between'>
                         <h1 className='ff_pop fw-800 text_60xxl lh_lg_72 lh_sm_50 lh_40 max_w_924 color_white text-uppercase'>Optimising your
                             Vehicle <span className='fw-normal style_italic'>Performance</span></h1>
                         <button className='ff_chivo fw-900 text_16xs lh_24 color_white text-uppercase comn_btn text-nowrap'>explore</button>
