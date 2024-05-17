@@ -9,7 +9,7 @@ function Nav() {
                 <div className='custom_container max_w_1380'>
                     <div className='d-flex align-items-center justify-content-between h_90'>
                         <div className='d-xxl-flex d-none align-items-center justify-content-between gap_55'>
-                            <div><a href=""><img src={LogoImg} alt="LogoImg"/></a></div>
+                            <div><a href=""><img src={LogoImg} alt="LogoImg" /></a></div>
                             <ul className='d-flex align-items-center gap_28 mb-0 ps-0 menuList'>
                                 <li><a href="#about" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>About Us</a></li>
                                 <li class="dropdown cursor_pointer">
@@ -79,10 +79,14 @@ function Nav() {
             </nav>
             <div className='flex-grow-1 d-flex align-items-end'>
                 <div className='max_w_1140 w-100 custom_container'>
-                    <div className='d-flex flex_wrap gap-sm-0 gap-2 align-items-center justify-content-between'>
-                        <h1 className='ff_pop fw-800 text_60xxl lh_lg_72 lh_sm_50 lh_40 max_w_924 color_white text-uppercase'>Optimising your
-                            Vehicle <span className='fw-normal style_italic'>Performance</span></h1>
-                        <button className='ff_chivo fw-900 text_16xs lh_24 color_white text-uppercase comn_btn text-nowrap'>explore</button>
+                    <div className="row">
+                        <div className="col-sm-8">
+                            <h1 className='ff_pop fw-800 text_60xxl lh_lg_72 lh_sm_50 lh_40 max_w_924 color_white text-uppercase'>Optimising your
+                                Vehicle <span className='fw-normal style_italic'>Performance</span></h1>
+                        </div>
+                        <div className="col-sm-4 d-flex justify-content-center align-items-center mt-sm-0 mt-2">
+                            <button className='ff_chivo fw-900 text_16xs lh_24 color_white text-uppercase comn_btn text-nowrap'>explore</button>
+                        </div>
                     </div>
                 </div>
             </div>
