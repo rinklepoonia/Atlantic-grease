@@ -571,7 +571,7 @@
   box-shadow: 0px 12px 27.4px 0px var(--clr-shadowRed);
 }
 
-@media (max-width:1399.99px) {
+@media (max-width:1200px) {
   .overFlowHidden {
     overflow: hidden !important;
   }

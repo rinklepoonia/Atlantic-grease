@@ -8,7 +8,7 @@ function Nav() {
             <nav className='nav_bg_colr'>
                 <div className='custom_container max_w_1380'>
                     <div className='d-flex align-items-center justify-content-between h_90'>
-                        <div className='d-xxl-flex d-none align-items-center justify-content-between gap_55'>
+                        <div className='d-xl-flex d-none align-items-center justify-content-between gap_55'>
                             <div><a href=""><img src={LogoImg} alt="LogoImg" /></a></div>
                             <ul className='d-flex align-items-center gap_28 mb-0 ps-0 menuList'>
                                 <li><a href="#about" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>About Us</a></li>
@@ -34,9 +34,9 @@ function Nav() {
                                 <li><a href="#blogs" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80 nav_links'>Blogs</a></li>
                             </ul>
                         </div>
-                        <div className='d-xxl-none d-block'><a href=""><img src={LogoImg} alt="LogoImg" /></a></div>
+                        <div className='d-xl-none d-block'><a href=""><img src={LogoImg} alt="LogoImg" /></a></div>
                         <input type='checkbox' id='menuIcon' hidden />
-                        <ul className='d-flex align-items-center gap_28 mb-0 ps-0 menuList d-xxl-none'>
+                        <ul className='d-flex align-items-center gap_28 mb-0 ps-0 menuList d-xl-none'>
                             <li><a href="#about" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>About Us</a></li>
                             <li class="dropdown cursor_pointer">
                                 <li onclick="openNav()" class="d-flex align-items-center">
@@ -60,12 +60,12 @@ function Nav() {
                             <li><a href="#blogs" className='ff_dm fw-normal text_16xs lh_24 color_white opacity_80'>Blogs</a></li>
                             <button className='ff_chivo fw-900 text_16xs lh_24 color_white text-uppercase comn_btn text-nowrap'>Get in touch</button>
                         </ul>
-                        <label for='menuIcon' className='d-xxl-none d-flex'>
+                        <label for='menuIcon' className='d-xl-none d-flex'>
                             <span></span>
                             <span></span>
                             <span></span>
                         </label>
-                        <div className='d-xxl-flex align-items-center gap-4 d-none'>
+                        <div className='d-xl-flex align-items-center gap-4 d-none'>
                             <div className='d-flex align-items-center gap-3 input_modification'>
                                 <span>
                                     <Searchsvg />
