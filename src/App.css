@@ -49,7 +49,7 @@
   --fs-xxs: 14px;
   --fs-xs: 14px;
   --fs-sm: 17px;
-  --fs-md: 18px;
+  --fs-md: 16px;
   --fs-2md: 18px;
   --fs-xl: 30px;
   --fs-xxl: 40px;
@@ -526,8 +526,16 @@
   margin-bottom: 24px;
 }
 
+.mb_10 {
+  margin-bottom: 10px;
+}
+
 .mt_-20 {
   margin-top: -20px;
+}
+
+.lh_20 {
+  line-height: 20px;
 }
 
 .pb_35 {
@@ -545,8 +553,8 @@
 
 .footerBtn {
   background: var(--clr-red);
-  padding: 11.5px 12.5px;
   border: 1px solid transparent;
+  padding: 5px;
 }
 
 .footerBtn_pos {
@@ -628,6 +636,7 @@
 @media (min-width:576px) {
   :root {
     --fs-xs: 16px;
+    --fs-md: 18px;
     --fs-xxl: 50px;
     --fs-xl: 40px;
     --fs-xxxl: 50px;
@@ -637,8 +646,16 @@
     line-height: 50px;
   }
 
+  .lh_sm_23 {
+    line-height: 23px;
+  }
+
   .lh_sm_45 {
     line-height: 45px;
+  }
+
+  .mb_sm_24 {
+    margin-bottom: 24px;
   }
 
   .p_sm_30 {
@@ -673,6 +690,10 @@
 
   .mb_sm_50 {
     margin-bottom: 50px;
+  }
+
+  .footerBtn {
+    padding: 11.5px 12.5px;
   }
 }
 
@@ -807,6 +828,7 @@
 
   .top_-13 {
     top: -13%;
+    left: 2%;
   }
 
   .blueImg_pos {

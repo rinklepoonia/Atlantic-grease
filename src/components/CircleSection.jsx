@@ -109,9 +109,6 @@ function CircleSection() {
                         </div>
                     </div>
                 </div>
-
-                {/* <a href="#" class="bttn"><span>Numbers</span></a> */}
-
             </div>
             <div className='circleSection_grident position-absolute position_grident_circle d-sm-block d-none'></div>
         </div>

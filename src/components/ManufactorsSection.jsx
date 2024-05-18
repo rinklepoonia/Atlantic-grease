@@ -7,7 +7,7 @@ function ManufactorsSection() {
             <div className='manufactore_grident pos_grident_manufactor position-absolute d-sm-block d-none'></div>
             <div className='custom_container max_w_1230'>
                 <div className='d-flex justify-content-xl-end'>
-                    <h2 className='ff_pop fw-800 text_52xl lh_lg_52 lh_sm_45 lh_36 color_white max_w_745 text-uppercase'>Pioneers of <a href="" className='ff_pop fw-800 text_52xl lh_lg_52 lh_sm_45 lh_36 color_white style_italic fw-normal bg_red d-inline-block transform_skew p-2 bttn' ><span > Lubricants </span></a>
+                    <h2 className='ff_pop fw-800 text_52xl lh_lg_52 lh_sm_45 lh_36 color_white max_w_745 text-uppercase'>Pioneers of <a href="" className='ff_pop fw-800 text_52xl lh_lg_52 lh_sm_45 lh_36 color_white style_italic fw-normal bg_red d-inline-block transform_skew p-md-2 p-1 bttn'><span> Lubricants </span></a>
                         <span className='d-lg-block'>& Grease Manufacturing</span></h2>
                 </div>
             </div>
