@@ -70,7 +70,7 @@ function Nav() {
                                 <span>
                                     <Searchsvg />
                                 </span>
-                                <input type="search" placeholder='Search' className='bg-transparent border_none outline_none' />
+                                <input type="search" placeholder='Search' className='ff_dm fw-normal text_17sm lh_22 bg-transparent border_none outline_none w-100' />
                             </div>
                             <button className='ff_chivo fw-900 text_16xs lh_24 color_white text-uppercase comn_btn text-nowrap'>Get in touch</button>
                         </div>
@@ -84,7 +84,7 @@ function Nav() {
                             <h1 className='ff_pop fw-800 text_60xxl lh_lg_72 lh_sm_50 lh_40 max_w_924 color_white text-uppercase'>Optimising your
                                 Vehicle <span className='fw-normal style_italic'>Performance</span></h1>
                         </div>
-                        <div className="col-sm-4 d-flex justify-content-center align-items-center mt-sm-0 mt-2">
+                        <div className="col-sm-4 d-flex justify-content-xl-end align-items-end mt-sm-0 mt-2">
                             <button className='ff_chivo fw-900 text_16xs lh_24 color_white text-uppercase comn_btn text-nowrap'>explore</button>
                         </div>
                     </div>

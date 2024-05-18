@@ -56,8 +56,11 @@
   --fs-xxxl: 25px;
   /* color */
   --clr-white: #FFFFFF;
+  --clr-lightgry: #ddd;
   --clr-black: #000000;
   --clr-red: #B91C20;
+  --clr-shadowRed: #850A0D;
+  --clr-btnRed: #B61C1FCC;
   --clr-bodyBlack: #080705;
   --clr-navGry: #11100B1A;
   --clr-gridentYellow: #7B5300;
@@ -65,7 +68,6 @@
   --clr-textBlue: #0A6DAD;
   --clr-inputGry: #FFFFFF3B;
   --clr-inputLightgry: #7676801F;
-
 }
 
 .bg_blue {
@@ -220,7 +222,8 @@
   border: 2px solid;
   border-image: linear-gradient(180deg, #D01F23 0%, #6A1012 100%)1;
   background: linear-gradient(180deg, #6A1012 0%, #D01F23 100%);
-  box-shadow: 0px 2px 20.9px 0px #B61C1FCC;
+  box-shadow: 0px 2px 20.9px 0px var(--clr-btnRed);
+  transition: all 0.3s linear;
 }
 
 .comn_btn:hover {
@@ -309,6 +312,14 @@
 
 .max_w_556 {
   max-width: 556px;
+}
+
+.max_w_1536 {
+  max-width: 1536px;
+}
+
+.max_w_1230 {
+  max-width: 1230px;
 }
 
 .py_30 {
@@ -480,11 +491,26 @@
   top: 51%;
 }
 
-.number_parallelogram {
-  transform: skew(-20deg);
+.bttn {
   background: var(--clr-red);
-  display: inline-block;
+  text-align: center
 }
+
+.bttn>span {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+.btnn2 {
+  background: var(--clr-textBlue);
+  text-align: center;
+}
+
+.btnn2>span {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
 
 .number_hover {
   transition: all 0.2s linear;
@@ -492,10 +518,7 @@
 
 .number_hover:hover {
   color: var(--clr-red);
-  text-shadow:
-    0px 0px 2px var(--clr-red),
-    0 0 1em var(--clr-red),
-    0 0 0.2em var(--clr-red);
+  text-shadow: 0 7px 18px var(--clr-red);
 }
 
 /* ===========footer============ */
@@ -529,6 +552,15 @@
 .footerBtn_pos {
   top: 12px;
   left: 12px;
+}
+
+.Footer_card {
+  border: 1px solid transparent;
+  transition: all 0.3s linear;
+}
+
+.Footer_card:hover {
+  box-shadow: 0px 12px 27.4px 0px var(--clr-shadowRed);
 }
 
 @media (max-width:1399.99px) {
@@ -654,7 +686,8 @@
   }
 
   .pos_blueGrident {
-    left: 30%;
+    left: 33%;
+    top: 18%;
   }
 }
 
@@ -739,11 +772,6 @@
     background-size: 100% 100%;
   }
 
-  .pos_blueGrident {
-    left: 57%;
-    top: 18%;
-  }
-
   .tranform_text {
     transform: translateY(643px);
   }
@@ -783,8 +811,8 @@
 
   .blueImg_pos {
     position: absolute;
-    right: 8%;
-    top: 2%;
+    right: 23%;
+    top: -27%;
   }
 
   .ml_150 {
@@ -794,6 +822,11 @@
   .pos_grident_manufactor {
     top: 41%;
     left: 12%;
+  }
+
+  .pos_blueGrident {
+    left: 57%;
+    top: 18%;
   }
 }
 

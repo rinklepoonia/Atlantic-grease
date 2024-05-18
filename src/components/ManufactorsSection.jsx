@@ -5,11 +5,13 @@ function ManufactorsSection() {
     return (
         <div id='services' className='py_lg_184_210 py_sm_90 py_30 position-relative'>
             <div className='manufactore_grident pos_grident_manufactor position-absolute d-sm-block d-none'></div>
-            <div className='custom_container'>
+            <div className='custom_container max_w_1230'>
                 <div className='d-flex justify-content-xl-end'>
-                    <h2 className='ff_pop fw-800 text_52xl lh_lg_52 lh_sm_45 lh_36 color_white max_w_745 text-uppercase'>Pioneers of <span className='ff_pop style_italic fw-normal bg_red d-inline-block transform_skew p-2'> Lubricants </span>
-                        & Grease Manufacturing</h2>
+                    <h2 className='ff_pop fw-800 text_52xl lh_lg_52 lh_sm_45 lh_36 color_white max_w_745 text-uppercase'>Pioneers of <a href="" className='ff_pop fw-800 text_52xl lh_lg_52 lh_sm_45 lh_36 color_white style_italic fw-normal bg_red d-inline-block transform_skew p-2 bttn' ><span > Lubricants </span></a>
+                        <span className='d-lg-block'>& Grease Manufacturing</span></h2>
                 </div>
+            </div>
+            <div className='max_w_1536 w-100 custom_container'>
                 <div className="row justify-content-center">
                     <div data-aos="fade-up" className="col-xl-5 col-10 d-flex justify_content_center">
                         <img className='position-relative w_100 max_w_600 top_-13' src={ManufactorImg} alt="ManufactorImg" />
@@ -23,6 +25,7 @@ function ManufactorsSection() {
                 </div>
             </div>
         </div>
+
     )
 }
 

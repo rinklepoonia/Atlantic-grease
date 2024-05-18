@@ -87,7 +87,7 @@ function CircleSection() {
             </div>
             <div className='tranform_text'>
                 <div className='d-flex justify-content-center'>
-                    <h5 className='max_w_264 ff_pop fw-800 text_52xl lh_62 color_white max_w_578 text-center mb_lg_75 mb_30'>Our <span className='ff_pop fw-normal style_italic number_parallelogram'>Numbers</span> Say About Us</h5>
+                    <h5 className='max_w_264 ff_pop fw-800 text_52xl lh_62 color_white max_w_578 text-center mb_lg_75 mb_30 text-uppercase'>Our <a href="" className='bttn ff_pop fw-normal style_italic ff_pop fw-800 text_52xl lh_62 color_white transform_skew d-inline-block px-2'><span>Numbers</span></a> Say About Us</h5>
                 </div>
                 <div className="max_w_1140 custom_container">
                     <div className="row">
@@ -109,6 +109,9 @@ function CircleSection() {
                         </div>
                     </div>
                 </div>
+
+                {/* <a href="#" class="bttn"><span>Numbers</span></a> */}
+
             </div>
             <div className='circleSection_grident position-absolute position_grident_circle d-sm-block d-none'></div>
         </div>
