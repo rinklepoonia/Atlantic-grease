@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div id='blogs' className='pb_lg_262 pb_35 mt_-100 mt_-20'>
             <div className='custom_container max_w_1140'>
-                <h6 className='ff_pop fw-800 text_52xl lh_62 text-uppercase color_white text-center mb_lg_83 mb_sm_50 mb_30'>explore our <a href="" className='ff_pop fw-normal text_52xl lh_62 text-uppercase color_white style_italic bg_red d-inline-block transform_skew p-md-2 p-1 bttn'><span>blogs</span></a></h6>
+                <h6 className='ff_pop fw-800 text_52xl lh_62 text-uppercase color_white text-center mb_lg_83 mb_sm_50 mb_30'>explore our <span href="" className='ff_pop fw-normal text_52xl lh_62 text-uppercase color_white style_italic bg_red d-inline-block transform_skew p-md-2 p-1 bttn'><span>blogs</span></span></h6>
                 <div className="row">
                     <div data-aos="fade-up" className="col-lg-4 col-md-6 mb-lg-0 mb-5 d-flex justify_center">
                         <div className='Footer_card max_w_364 w-100'>

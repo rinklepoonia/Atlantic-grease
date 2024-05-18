@@ -6,8 +6,8 @@ function ApprovlesSection() {
         <div id='testimonials' className='position-relative pb_lg_78 pb_10 pt-xl-0 pt-lg-4'>
             <div className='approvals_grident pos_blueGrident d-sm-block d-none'></div>
             <div className='max_w_1140 custom_container'>
-                <h3 className='ff_pop fw-800 text_52xl lh_62 color_white text-uppercase mb_lg_53 mb_20'>OEM  <a href=""
-                    className='fw-normal ff_pop text_52xl lh_62 color_white style_italic bg_blue d-inline-block transform_skew p-2 btnn2'><span>Approvals</span></a></h3>
+                <h3 className='ff_pop fw-800 text_52xl lh_62 color_white text-uppercase mb_lg_53 mb_20'>OEM  <span
+                    className='fw-normal ff_pop text_52xl lh_62 color_white style_italic bg_blue d-inline-block transform_skew p-2 btnn2'><span>Approvals</span></span></h3>
             </div>
             <div className='max_w_1536 w-100 custom_container'>
                 <div className="row flex-xl-row flex-column-reverse">
