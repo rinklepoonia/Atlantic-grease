@@ -716,6 +716,10 @@
   .justify_center {
     justify-content: center;
   }
+
+  .circle_bg_cover {
+    background-size: cover;
+  }
 }
 
 @media (min-width:992px) {

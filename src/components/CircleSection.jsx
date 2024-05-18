@@ -6,7 +6,7 @@ import NinjaWeapn from '../assets/images/svg/ninja-weopn-footer.svg'
 
 function CircleSection() {
     return (
-        <div id='about' className='circle_bg_img bg_no_repeat bg_cover bg_pos_center position-relative h_lg_1344 h_950 h_788'>
+        <div id='about' className='circle_bg_img bg_no_repeat circle_bg_cover bg_pos_center position-relative h_lg_1344 h_950 h_788'>
             <div className='d-lg-block d-none'>
                 <div className='position-absolute posi_circle_1'>
                     <div className='IconBox d-flex justify-content-center align-items-center circle_borderRadius'>
