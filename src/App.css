@@ -290,7 +290,7 @@
 }
 
 .hero_bg_img {
-  background-image: url(./assets/images/png/hero-bg-img.png);
+  background-image: url(./assets/images/svg/hero-bg.svg);
 }
 
 .max_w_924 {
@@ -571,46 +571,6 @@
   box-shadow: 0px 12px 27.4px 0px var(--clr-shadowRed);
 }
 
-@media (max-width:1200px) {
-  .overFlowHidden {
-    overflow: hidden !important;
-  }
-
-  label[for="menuIcon"] {
-    width: 36px;
-    height: 29px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
-    z-index: 7;
-  }
-
-  label[for="menuIcon"]>span {
-    height: 3px;
-    background: var(--clr-white);
-  }
-
-  .menuList {
-    background-color: var(--clr-black);
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    right: -100%;
-    transition: all 200ms linear;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 6;
-  }
-
-  input:checked~ul.menuList {
-    right: 0;
-  }
-
-}
-
 @media (max-width:768px) {
   .white_bg {
     background-position: center;
@@ -700,10 +660,6 @@
 @media (min-width:768px) {
   .comn_btn {
     padding: 16px 24px;
-  }
-
-  .bg_img_cover {
-    background-size: cover;
   }
 
   .pos_blueGrident {
@@ -797,12 +753,53 @@
     background-size: 100% 100%;
   }
 
+  .approvel_bg_cover {
+    background-size: cover;
+  }
+
   .tranform_text {
     transform: translateY(643px);
   }
 }
 
 @media (max-width:1200px) {
+  .overFlowHidden {
+    overflow: hidden !important;
+  }
+
+  label[for="menuIcon"] {
+    width: 36px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    z-index: 7;
+  }
+
+  label[for="menuIcon"]>span {
+    height: 3px;
+    background: var(--clr-white);
+  }
+
+  .menuList {
+    background-color: var(--clr-black);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all 200ms linear;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+  }
+
+  input:checked~ul.menuList {
+    right: 0;
+  }
+
   .w_100 {
     width: 100%;
   }
@@ -825,11 +822,6 @@
 }
 
 @media (min-width:1200px) {
-  .white_bg {
-    background-position-x: right !important;
-    background-size: contain;
-  }
-
   .top_-13 {
     top: -13%;
     left: 2%;
@@ -856,8 +848,18 @@
   }
 }
 
+@media (min-width:992px) and (max-width:1200px) {
+  .bg_img_cover {
+    background-size: cover;
+  }
+}
+
 @media (min-width:1500px) {
   .min_vh_100 {
     min-height: 100vh;
+  }
+
+  .bg_img_cover {
+    background-size: cover;
   }
 }
