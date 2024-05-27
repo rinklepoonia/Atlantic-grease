@@ -173,6 +173,7 @@
 
 .nav_bg_colr {
   background: var(--clr-navGry);
+ backdrop-filter: blur(11px);
 }
 
 .h_90 {
@@ -569,12 +570,8 @@
 
 .Footer_card {
   border: 1px solid transparent;
-  transition: all 0.3s linear;
 }
 
-.Footer_card:hover {
-  box-shadow: 0px 12px 27.4px 0px var(--clr-shadowRed);
-}
 
 @media (max-width:768px) {
   .white_bg {
